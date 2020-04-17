@@ -1,14 +1,15 @@
-# draw any polygon in turtle 
-  
 import turtle 
-  
-# creating turtle pen 
+
+#criando objeto 
 t = turtle.Turtle() 
 
-def draw_poly(n, l):  
+def questao_2(n, l):  
     
-    for _ in range(n): 
+    #para cada lado do polígono
+    for i in range(n): 
+        #andar l
         turtle.forward(l) 
+        #girar o 'angulo interno"
         turtle.right(360 / n) 
 
-draw_poly(8, 50)
+questao_2(8, 50)

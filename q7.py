@@ -1,9 +1,10 @@
-def sum_of_initial_odds(lst):
+def questao_7(lst):
     sum = 0
-#test if element is odd number - if it's odd, add it to the previous integer
+#varrendo a lista e para cada elemento da lista soma-se o seu respectivo quadrado
     for i in range (len(lst)):
             sum = sum + lst[i]*lst[i]
+    print(sum)
     return sum
 
 lst = [1, 2, 3]
-print(sum_of_initial_odds(lst))
+questao_7(lst)

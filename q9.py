@@ -1,22 +1,13 @@
-# function which return reverse of a string 
+#criando uma função inverse (nao entendi muito bem)
 def reverse(s): 
     return s[::-1] 
-  
-def isPalindrome(s): 
-    # Calling reverse function 
+
+def questao_9(s): 
     rev = reverse(s) 
   
-    # Checking if both string are equal or not 
+    #Checando se a palavra é palindromo
     if (s == rev): 
-        return True
-    return False
-  
-  
-# Driver code 
-s = "malayalam"
-ans = isPalindrome(s) 
-  
-if ans == 1: 
-    print("Yes") 
-else: 
-    print("No")
+        return print(True)
+    return print(False)
+
+questao_9('level')
