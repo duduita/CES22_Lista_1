@@ -9,6 +9,9 @@ def questao_10(z, w):
     y = complex(p,q)
     print(y)
 
+
+#Exemplo do código está funcionando:
+
 a = (3+3j)
 b = (2+3j)
 

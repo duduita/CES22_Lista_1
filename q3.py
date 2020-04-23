@@ -8,4 +8,6 @@ def questao_3(n):
     print(my_sum)
     return my_sum
 
+
+#exemplo da funcao funcionando
 questao_3(10)

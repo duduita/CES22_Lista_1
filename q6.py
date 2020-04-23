@@ -13,4 +13,6 @@ def questao_6(num):
     else: 
         print(num, "is not a prime number") 
 
+#Exemplo do código funcionando:
 questao_6(20)
+questao_6(19)

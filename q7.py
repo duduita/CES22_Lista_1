@@ -6,5 +6,6 @@ def questao_7(lst):
     print(sum)
     return sum
 
+#Exemplo do código funcionando:
 lst = [1, 2, 3]
 questao_7(lst)

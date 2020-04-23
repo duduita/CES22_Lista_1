@@ -1,4 +1,3 @@
-
 def questao_4(lst):
     sum = 0
 #verificando se o número é par - se não for, soma-se ao contador

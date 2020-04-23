@@ -10,5 +10,6 @@ def sum_of_initial_odds(lst):
 
     return sum
 
-lst = ['auto', 'sam', 'sam']
+#exemplo da funcao funcionando
+lst = ['auto', 'sam', 'tom']
 print(sum_of_initial_odds(lst))

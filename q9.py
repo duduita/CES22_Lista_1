@@ -1,4 +1,4 @@
-#criando uma função inverse (nao entendi muito bem)
+#criando uma função reverse
 def reverse(s): 
     return s[::-1] 
 
@@ -10,4 +10,5 @@ def questao_9(s):
         return print(True)
     return print(False)
 
+#Exemplo do código funcionando:
 questao_9('level')
